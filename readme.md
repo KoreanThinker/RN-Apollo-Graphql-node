@@ -15,7 +15,8 @@
 #### Frontend
 1. [typescript로 react-native init](https://facebook.github.io/react-native/docs/typescript)
 2. [react-navigation 설치](https://reactnavigation.org/docs/en/getting-started.html)
-
+3. apollo 설치 - 공식문서랑 커밋 보고 하자
+4. apollo 연동 할때 uri는 ```http://192.168.35.227:4000``` 요런식으로 가야됨
 #### Backend
 <details>
 <summary>graphql 서버 init</summary>
