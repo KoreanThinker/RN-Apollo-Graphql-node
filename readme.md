@@ -9,6 +9,9 @@
 #### Backend
 - node
 - typescript
+- hasura
+- h
+- postgres
 
 
 ## Setting

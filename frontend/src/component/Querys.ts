@@ -5,3 +5,16 @@ export const GET_HELLO = gql`
         hello(name: $name)
     }
 `
+
+
+export const GET_PROFILE = gql`
+    query profileOrderByName($limit: Int) {
+        profile_aggregate(limit: $limit, order_by: {id:desc}) {
+            nodes {
+                id
+                name
+                password
+            }
+        }
+    }
+`
