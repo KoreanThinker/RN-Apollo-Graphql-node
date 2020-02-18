@@ -1,17 +1,17 @@
-# RN-Apollo-Graphql-node 템플릿
+# RN-Apollo-Graphql-hasura or nodejs 템플릿
 
 ## Dev Stack
-#### Frontend (app)
-- react-native (hook & functional component)
+#### 지금 사용되는 스택
+- react-native
 - typescript
+- apollo
 - graphql
-
-#### Backend
-- node
-- typescript
 - hasura
-- h
 - postgres
+
+#### 사용됬던 스택
+- node
+- graphql-yoga
 
 
 ## Setting
@@ -19,8 +19,13 @@
 1. [typescript로 react-native init](https://facebook.github.io/react-native/docs/typescript)
 2. [react-navigation 설치](https://reactnavigation.org/docs/en/getting-started.html)
 3. apollo 설치 - 공식문서랑 커밋 보고 하자
-4. apollo 연동 할때 uri는 ```http://192.168.35.227:4000``` 요런식으로 가야됨
-#### Backend
+4. apollo 연동 할때 uri는 ```http://192.168.35.228:4000``` 요런식으로 가야됨
+
+#### Hasura Backend
+1. hasura 공식 문서 보고 하면됨
+
+
+#### Node.js Backend (이거는 태스트만 해봤음)
 <details>
 <summary>graphql 서버 init</summary>
 
@@ -74,3 +79,4 @@ server.start(() => console.log('Server is running on localhost:4000'))
 ```
 
 </details>
+
